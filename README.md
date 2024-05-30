@@ -12,7 +12,7 @@ The Financial Analyzer Project is a web application for analyzing and understand
 
 ## Directory Structure
 ```
-financial_analyzer_project/
+financial_analyzer_python/
 ├── app/
 │   ├── __init__.py
 │   ├── main.py
@@ -24,18 +24,19 @@ financial_analyzer_project/
 │   │   ├── __init__.py
 │   │   ├── financial_analyzer.py
 │   │   ├── transaction_service.py
+│   │   ├── interpretation.py
 │   ├── database/
 │   │   ├── __init__.py
 │   │   ├── mongo.py
 │   ├── schemas/
 │   │   ├── __init__.py
 │   │   ├── models.py
+│   │   ├── prompts.py
 │   ├── data/
 │   │   ├── plaid_transactions.csv
 ├── .env
 ├── requirements.txt
 ├── approaches.txt
-├── synthetic_data_generation_approach.txt
 ├── Dockerfile
 ├── docker-compose.yml
 └── README.md
