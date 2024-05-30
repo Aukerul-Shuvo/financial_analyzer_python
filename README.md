@@ -35,6 +35,7 @@ financial_analyzer_python/
 │   ├── data/
 │   │   ├── plaid_transactions.csv
 ├── .env
+├── .gitignore
 ├── requirements.txt
 ├── approaches.txt
 ├── Dockerfile
