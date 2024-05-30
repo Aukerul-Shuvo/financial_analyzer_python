@@ -1,0 +1,5 @@
+# Ignore directory
+data/
+venv/
+.vscode/
+.env
